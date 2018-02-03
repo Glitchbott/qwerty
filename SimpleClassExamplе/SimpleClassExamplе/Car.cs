@@ -18,6 +18,7 @@ namespace SimpleClassExamplе
         public void SpeedUp (int delta)
         {
             currSpeed += delta;
+
         }
     }
 }
