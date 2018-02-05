@@ -10,14 +10,28 @@ namespace SimpleClassExamplе
     {
         public string petName;
         public int currSpeed;
-
-        public void PrintState()
+        public void PrintState() 
         {
-            Console.WriteLine("{0} is going {1} MPH.", petName, currSpeed);
+            Console.WriteLine(petName, currSpeed);
         }
-        public void SpeedUp (int delta)
+
+        public Car()
         {
-            currSpeed += delta;
+            petName = "Chuck";
+            currSpeed = 10;
+            
+        }
+
+        public Car(string pn)
+        {
+            petName = pn;
+           
+        }
+        public Car(string pn,int cs)
+        {
+            petName = pn;
+            currSpeed = cs;
+            
 
         }
     }

@@ -11,15 +11,14 @@ namespace SimpleClassExamplе
         static void Main(string[] args)
         {
             Console.WriteLine("****Fun with Class Types ****\n");
-            Car myCar = new Car();
-            myCar.petName = "Henry";
-            myCar.currSpeed = 10;
+            Car chuck = new Car();
+            chuck.PrintState();
 
-            for (int i =0; i<=10; i++)
-            {
-                myCar.SpeedUp(5);
-                myCar.PrintState();
-            }
+            Car mary = new Car("Mary");
+            mary.PrintState();
+
+            Car daisy = new Car("Daisy", 75);
+            daisy.PrintState();
 
             Console.ReadLine();
             
