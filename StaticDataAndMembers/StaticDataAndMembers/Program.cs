@@ -13,7 +13,9 @@ namespace StaticDataAndMembers
             Console.WriteLine("***** Fun whith Static Data *****\n");
             SavingsAccount s1 = new SavingsAccount(50);
             SavingsAccount s2 = new SavingsAccount(100);
+            Console.WriteLine("Inerest Rate is: {0}", SavingsAccount.GetInterestRate());
             SavingsAccount s3 = new SavingsAccount(10000.75);
+            Console.WriteLine("Inerest Rate is: {0}", SavingsAccount.GetInterestRate());
             Console.ReadLine();
         }
     }
