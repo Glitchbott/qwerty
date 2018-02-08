@@ -17,7 +17,7 @@ namespace SimpleClassExamplе
 
         public Animal()
         {
-            petName = "Henry";
+            petName = "";
             Action = "fly ";
             
         }
