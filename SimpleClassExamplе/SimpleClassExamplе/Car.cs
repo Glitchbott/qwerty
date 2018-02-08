@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace SimpleClassExamplе
 {
-    class Car
+    class Animal
     {
         public string petName;
-        public int currSpeed;
+        public string Action ;
         public void PrintState() 
         {
-            Console.WriteLine(petName, currSpeed);
+            Console.WriteLine(petName, Action);
         }
 
-        public Car()
+        public Animal()
         {
-            petName = "Chuck";
-            currSpeed = 10;
+            petName = "Henry";
+            Action = "fly ";
             
         }
 
-        public Car(string pn)
+        public Animal(string pn)
         {
             petName = pn;
            
         }
-        public Car(string pn,int cs)
+        public Animal(string pn,string cs)
         {
             petName = pn;
-            currSpeed = cs;
+            Action = cs;
             
 
         }
