@@ -9,10 +9,25 @@ namespace SimpleClassExamplе
     class Motorcycle
     {
         public int driverIntensity;
-        public string name;
-        public void SetDriverName(string name)
+        public string driverName;
+        public Motorcycle() { }
+        public Motorcycle(int intensity)
+        
+          : this (intensity, "") {}
+        
+        public Motorcycle( string name)
+        
+          : this(0, name) {}
+        
+
+        public Motorcycle(int intensity,string name)
         {
-            this.name = name;
+           if (intensity > 10)
+            {
+                intensity = 10;
+            }
+            driverIntensity = intensity;
+            driverName = name;
         }
         public void PopAWheely()
         {
@@ -22,9 +37,6 @@ namespace SimpleClassExamplе
             }
         }
 
-        public Motorcycle(int intensity)
-        {
-            driverIntensity = intensity;
-        }   
+        
     }
 }
