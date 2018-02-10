@@ -18,6 +18,10 @@ namespace EmployeerApp
             emp.Name= "Marv";
             Console.WriteLine("Employee is named:{0}", emp.Name);
             Console.ReadLine();
+
+            Employee joe = new Employee();
+            joe.Age++; 
+
         }
     }
 }
