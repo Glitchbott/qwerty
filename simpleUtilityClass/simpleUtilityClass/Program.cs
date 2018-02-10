@@ -15,8 +15,8 @@ namespace simpleUtilityClass
             TimeUtilClass.PrintDate();
             TimeUtilClass.PrintTime();
             //НЕ РАБОТАЕТ
-          //  TimeUtilClass u = new TimeUtilClass();
-          //  Console.ReadLine();
+            TimeUtilClass u = new TimeUtilClass();
+           Console.ReadLine();
                 
         }
 

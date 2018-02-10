@@ -1,0 +1,6 @@
+C:\Users\avlobkova\Documents\GitHub\qwerty\EmployeerApp\EmployeerApp\bin\Debug\EmployeerApp.exe.config
+C:\Users\avlobkova\Documents\GitHub\qwerty\EmployeerApp\EmployeerApp\bin\Debug\EmployeerApp.exe
+C:\Users\avlobkova\Documents\GitHub\qwerty\EmployeerApp\EmployeerApp\bin\Debug\EmployeerApp.pdb
+C:\Users\avlobkova\Documents\GitHub\qwerty\EmployeerApp\EmployeerApp\obj\Debug\EmployeerApp.csprojResolveAssemblyReference.cache
+C:\Users\avlobkova\Documents\GitHub\qwerty\EmployeerApp\EmployeerApp\obj\Debug\EmployeerApp.exe
+C:\Users\avlobkova\Documents\GitHub\qwerty\EmployeerApp\EmployeerApp\obj\Debug\EmployeerApp.pdb
