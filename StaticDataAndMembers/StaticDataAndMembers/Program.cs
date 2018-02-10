@@ -17,6 +17,7 @@ namespace StaticDataAndMembers
             SavingsAccount s3 = new SavingsAccount(10000.75);
             Console.WriteLine("Inerest Rate is: {0}", SavingsAccount.GetInterestRate());
             Console.ReadLine();
+
         }
     }
 }
