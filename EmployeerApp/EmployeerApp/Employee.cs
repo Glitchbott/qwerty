@@ -12,6 +12,7 @@ namespace EmployeerApp
         private int empId;
         private float currPay;
         private int empAge;
+        private string empSSN;
         public int Age
         {
             get { return empAge; }
@@ -44,19 +45,25 @@ namespace EmployeerApp
 
         public Employee() { }
         public Employee(string name, int id, float pay)
-            :this (name, 0, id, pay) { }
-        public Employee( string name, int age, int id, float pay)
+            :this (name, 0, id, pay , " ") { }
+        public Employee( string name, int age, int id, float pay, string ssn)
         {
             emName = name;
             empId = id;
             currPay = pay;
             empAge = Age;
+            empSSN = ssn;
         }
 
         public void GiveBonus (float amount )
         {
             Pay += amount;
         }
+        public string SocialSecurityNumber
+        {
+            get { return empSSN ; }
+        }
+
         public void DisplayStats()
         {
             Console.WriteLine(" Name: {0}", emName);
