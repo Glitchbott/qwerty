@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("SocialSecurityNumber")]
+[assembly: AssemblyTitle("AutoProps")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SocialSecurityNumber")]
+[assembly: AssemblyProduct("AutoProps")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("df722572-4610-4470-9d80-5e8ffd572ea9")]
+[assembly: Guid("9fd65cc8-8954-4a65-bfcc-722aecf99a6f")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

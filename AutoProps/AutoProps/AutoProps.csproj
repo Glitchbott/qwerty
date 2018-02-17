@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF722572-4610-4470-9D80-5E8FFD572EA9}</ProjectGuid>
+    <ProjectGuid>{9FD65CC8-8954-4A65-BFCC-722AECF99A6F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SocialSecurityNumber</RootNamespace>
-    <AssemblyName>SocialSecurityNumber</AssemblyName>
+    <RootNamespace>AutoProps</RootNamespace>
+    <AssemblyName>AutoProps</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
