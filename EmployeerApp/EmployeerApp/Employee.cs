@@ -42,9 +42,9 @@ namespace EmployeerApp
        
 
 
-        public Employee(){}
+        public Employee() { }
         public Employee(string name, int id, float pay)
-            :this (name, 0, id, pay) {}
+            :this (name, 0, id, pay) { }
         public Employee( string name, int age, int id, float pay)
         {
             emName = name;
@@ -55,7 +55,7 @@ namespace EmployeerApp
 
         public void GiveBonus (float amount )
         {
-            currPay += amount;
+            Pay += amount;
         }
         public void DisplayStats()
         {
